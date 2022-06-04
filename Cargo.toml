@@ -6,3 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ethers-core = "0.6.3"
+ethers-providers = "0.6.0"
+hex = "0.4.3"
+
+[dependencies.async-std]
+version = "1.6"
+features = ["attributes"]
